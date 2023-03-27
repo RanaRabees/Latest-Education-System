@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ============================ NavBar Start================================== */
+
+/* ===== Google Font Import - Poppins ===== */
+
+/* ===== Colours ===== */
+:root {
+  --body-color: #e4e9f7;
+  --nav-color: #8a10a6;
+  --side-nav: rgba(116, 118, 120, 0.861);
+  --text-color: #fff;
+  --search-bar: #f2f2f2;
+  --search-text: #010718;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+/* ============================ NavBar End================================== */
+
+/* ============================ Go - On - Top Start================================== */
+
+#go {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 1000;
+  margin-right: 30px;
+  right: 0;
+  bottom: 0;
+}
+#go:hover {
+  border-radius: 50%;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.34),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+/* ============================ Go - On - Top End================================== */
